@@ -24,7 +24,7 @@ def generate_certificate(number, name, part, pdf_file_name):
     sertif = canvas.Canvas(pdf_file_name, pagesize=landscape(A4))
     width, height = A4
     # Background dan Design sertifikat/pdf file
-    image_path = "assets/sertif2.png"
+    image_path = "assets/designsertif.png"
     sertif.drawImage(image_path,0,0,width=height,height=width)
     # No Sertifikat
     sertif.setFont('OpenSans',16)
